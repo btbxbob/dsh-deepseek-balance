@@ -1,4 +1,6 @@
-# dsh-balance
+# dsh-deepseek-balance
+
+> 插件包名：`dsh-balance`
 
 在 DeepSeek Harness 侧边栏左下角「设置」按钮上方显示你的 DeepSeek 开放平台账户余额的插件。
 
