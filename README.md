@@ -4,6 +4,8 @@
 
 在 DeepSeek Harness 侧边栏左下角「设置」按钮上方显示你的 DeepSeek 开放平台账户余额的插件。
 
+![侧边栏余额徽标](docs/screenshot.png)
+
 ## 功能
 
 - 侧边栏底部、设置按钮上方显示 **余额 ¥xx.xx**（折叠成窄条时显示紧凑金额）
