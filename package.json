@@ -1,0 +1,33 @@
+{
+  "name": "dsh-balance",
+  "version": "0.1.0",
+  "description": "DeepSeek account balance badge in the sidebar, above the settings button (dual-half plugin: host fetches /user/balance with the stored API key, client renders it).",
+  "private": true,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ],
+      "platform": "web"
+    }
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-credentials": "^0.1.0-rc.6",
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "files": [
+    "lib"
+  ]
+}
