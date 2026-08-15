@@ -60,9 +60,6 @@ New-Item -ItemType Junction -Path $target -Target "<本目录>" -ErrorAction Sil
 #         apiKeyEnv: DEEPSEEK_API_KEY
 ```
 
-> 本仓库只包含插件本身；如果你在本机从 dsh 工作区使用，也可以直接运行工作区根目录的
-> `install-dsh-balance.ps1`（它等价于上面两步，并把插件复制到 `~/.dsh/profiles/node_modules`）。
-
 ## 生效
 
 - 刷新浏览器页面（新插件条目需要页面重新读取 boot 清单；若补丁热重载已把条目加入 loader，刷新即可，否则需要重启 dsh web）。
