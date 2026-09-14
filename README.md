@@ -6,6 +6,8 @@
 
 ![侧边栏余额徽标](docs/screenshot.png)
 
+版本变更见 [CHANGELOG.md](CHANGELOG.md)。
+
 ## 功能
 
 - 侧边栏底部、设置按钮上方显示**两行余额卡片**：第一行是 **余额 ¥xx.xx**（折叠成窄条时显示紧凑金额）
