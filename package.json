@@ -1,6 +1,6 @@
 {
   "name": "dsh-balance",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "DeepSeek account balance badge in the sidebar, above the settings button (dual-half plugin: host fetches /user/balance with the stored API key, client renders it).",
   "private": true,
   "type": "module",
